@@ -18,14 +18,6 @@ def is_even(num):
         return True
     else:
         return False
-    """
-    Determines if a given number is even.
 
-    Parameters:
-        num (int): The number to be checked.
-
-    Returns:
-        bool: True if the number is even, False otherwise.
-    """
     # FIX : complete this
     pass

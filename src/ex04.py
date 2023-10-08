@@ -4,17 +4,10 @@ Execise 4
 
 
 def area(param1, param2):
-    """
-    Calculates the area of a rectangle given its length and width.
+    area = param1*param2
+    return area
 
-    Parameters:
-        length (float): The length of the rectangle.
-        width (float): The width of the rectangle.
-
-    Returns:
-        float: The area of the rectangle.
-    """
-    # TODO : complete this
+    # FIX : complete this
     pass
 
 
