@@ -27,16 +27,7 @@ def volume(param1, param2, param3):
 
 
 def surface_area(param1, param2, param3):
-    """
-    Calculate the surface area of a rectangular prism.
-
-    Parameters:
-        length (float): The length of the rectangular prism.
-        width (float): The width of the rectangular prism.
-        height (float): The height of the rectangular prism.
-
-    Returns:
-        float: The total surface area of the rectangular prism.
-    """
-    # TODO : complete this
+    surface_a = 2*(param1*param2)+2*(param2*param3)+2*(param1*param3)
+    return surface_a
+    # FIX : complete this
     pass
