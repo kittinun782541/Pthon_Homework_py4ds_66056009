@@ -4,6 +4,11 @@ Execise 3
 
 
 def is_odd(num):
+     nums = int(num)
+    if nums % 2 != 0:
+        return True
+    else:
+        return False
     """
     Check if a number is odd.
 
