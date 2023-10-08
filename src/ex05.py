@@ -3,7 +3,15 @@ Execise 5
 """
 
 
-def fizz_buzz(param):
+def fizz_buzz(num):
+    if num%3 == 0 and num%5 == 0:
+        return "FizzBuzz"
+    elif num%3 == 0:
+        return "Fizz"
+    elif num%5 == 0:
+        return "Buzz"
+    else:
+        return num
     """
     Checks if the given number is divisible by 3 and 5. If it is, returns "FizzBuzz".
     If the number is only divisible by 3, returns "Fizz".
