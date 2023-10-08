@@ -11,11 +11,12 @@ def greeting():
     pass
 
 
-def know_my_name(name):
-    print('Worajedt')
+def know_my_name():
+    name = input('')
+    return name
 
 
-    # TODO : complete this
+    # fix : complete this
     pass
 
 
