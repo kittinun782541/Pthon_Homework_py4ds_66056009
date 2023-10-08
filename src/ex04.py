@@ -3,31 +3,31 @@ Execise 4
 """
 
 
-def area(param1, param2):
-    area = param1*param2
+def area(L, W):
+    area = L*W
     return area
 
     # FIX : complete this
     pass
 
 
-def perimeter(param1, param2):
-    perimeter = (param1+param2)+(param1+param2)
+def perimeter(L, W):
+    perimeter = (L+W)+(L+W)
     return perimeter
 
     # FIX : complete this
     pass
 
 
-def volume(param1, param2, param3):
-    volume = (param1*param2)*param3
+def volume(L, W, H):
+    volume = (L*W)*H
     return volume
     # FIX : complete this
     pass
 
 
-def surface_area(param1, param2, param3):
-    surface_a = 2*(param1*param2)+2*(param2*param3)+2*(param1*param3)
+def surface_area(L, W, H):
+    surface_a = 2*(L*W)+2*(W*H)+2*(L*H)
     return surface_a
     # FIX : complete this
     pass
