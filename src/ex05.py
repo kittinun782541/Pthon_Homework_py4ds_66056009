@@ -24,5 +24,5 @@ def fizz_buzz(num):
     Returns:
         str or int: The result of the FizzBuzz calculation.
     """
-    # TODO : complete this
+    # FIX : complete this
     pass
