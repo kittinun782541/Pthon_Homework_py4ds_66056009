@@ -11,18 +11,11 @@ def area(param1, param2):
     pass
 
 
-def perimetero(param1, param2):
-    """
-    Calculate the perimeter of a rectangle.
+def perimeter(param1, param2):
+    perimeter = (param1+param2)+(param1+param2)
+    return perimeter
 
-    Args:
-        length (float): The length of the rectangle.
-        width (float): The width of the rectangle.
-
-    Returns:
-        float: The perimeter of the rectangle.
-    """
-    # TODO : complete this
+    # FIX : complete this
     pass
 
 
