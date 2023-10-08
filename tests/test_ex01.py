@@ -18,3 +18,7 @@ def test_say_hi(capsys):
     captured = capsys.readouterr()
     assert captured.out == 'สวัสดีคุณเจษ\n'
 
+
+#%%
+
+#%%
