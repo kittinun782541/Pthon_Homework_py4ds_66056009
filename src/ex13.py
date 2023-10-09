@@ -1,29 +1,11 @@
-"""
-Exercise 13
-"""
+def test_calc_sum(numbers):
+        return sum(numbers)
 
+def test_calc_prod(numbers):
+    if not numbers:  # If the list is empty, return 1
+        return 1
+    result = 1
+    for number in numbers:
+        result *= number
+    return result
 
-def calc_sum(params):
-    """
-    Calculate the sum of a list of numbers.
-
-    Parameters:
-    - num_list (list): A list of numbers.
-
-    Returns:
-    - int: The sum of all the numbers in the list.
-    """
-    pass
-
-
-def calc_prod(params):
-    """
-    Calculates the product of all the numbers in the given list.
-
-    Parameters:
-        num_list (list): A list of numbers.
-
-    Returns:
-        int: The product of all the numbers in the list.
-    """
-    pass
